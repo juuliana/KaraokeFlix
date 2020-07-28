@@ -1,75 +1,79 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Pop Internacional",
+      "link": "https://www.youtube.com/results?search_query=karaoke+pop+internacional",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Lista das mais tocadas!",
+        "url": "https://www.youtube.com/results?search_query=karaoke+pop+internacional"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Não Era Amor - Giulia Be (Karoakê Version)",
+          "url": "https://www.youtube.com/watch?v=nsfX3gpyaZs"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Ed Sheeran - Perfect",
+          "url": "https://youtu.be/sPMA1tqWuf4"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "John Legend - All of Me ",
+          "url": "https://youtu.be/kr8wPkdHFA0"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Coldplay - The Scientist",
+          "url": "https://www.youtube.com/watch?v=wveKS8eWnsE"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Shallow - Lady Gaga, Bradley Cooper",
+          "url": "https://www.youtube.com/watch?v=BxSDKYV4Cfk"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "A Thousand Years - Christina Perry",
+          "url": "https://www.youtube.com/watch?v=AWehaFFYbO8"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "David Guetta ft. Sia - Titanium",
+          "url": "https://www.youtube.com/watch?v=32LB2DR_JM0"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Tones & I - Dance Monkey",
+          "url": "https://www.youtube.com/watch?v=an0JKXnnrAY"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Sertanejo Universitário",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Lista das mais tocadas!",
+        "url": "https://www.youtube.com/results?search_query=karoake+sertanejo"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Notificação Preferida - Zé Neto e Cristiano",
+          "url": "https://www.youtube.com/watch?v=i0FbRvg0JCw"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Gustavo Mioto - Contramão",
+          "url": "https://youtu.be/-i3aMLPJA3M"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Vou ter que superar - Matheus & Kauan Part. Marília Mendonça",
+          "url": "https://youtu.be/GXpE7aeNBHE"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Graveto - Marília Mendonça",
+          "url": "https://www.youtube.com/watch?v=f066hpjfwfM"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Boa Memória - Luan Santana",
+          "url": "https://www.youtube.com/watch?v=8iqMX5i7-CA"
+        },
+        {
+          "titulo": "S de Saudade - Luiza e Maurílio Part. Zé Neto e Cristiano ",
+          "url": "https://www.youtube.com/watch?v=D-sG0JDj9Ms"
         }
       ]
     },
