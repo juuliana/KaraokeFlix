@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Logo from '../../assets/img/juflix.png';
+import Logo from '../../assets/img/singflix.png';
 import './Menu.css';
 
 import Button from '../Button';
@@ -8,11 +9,11 @@ import Button from '../Button';
 export default function Menu(){
     return(
         <nav className="Menu">
-            <a href="/">
+            <Link to="/">
                 <img className="Logo" src={Logo} alt="Juflix Logo"/>
-            </a>
+            </Link>
 
-            <Button as="a" className="ButtonLink" href="/">
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
                 Novo vídeo
             </Button>
         </nav>
