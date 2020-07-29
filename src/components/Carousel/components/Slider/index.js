@@ -25,6 +25,11 @@ const Container = styled.ul`
   .slick-next {
     right: 16px;
   }
+
+  .slick-prev:before,
+  .slick-next:before{
+    color: var(--primary);
+  }
 `;
 
 export const SliderItem = styled.li`
@@ -42,11 +47,13 @@ const Slider = ({ children }) => (
   <Container>
     <SlickSlider {...{
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
+      autoplay: true,
+      autoplaySpeed: 3000
     }}
     >
       {children}
