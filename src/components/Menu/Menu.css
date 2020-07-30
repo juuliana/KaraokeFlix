@@ -1,9 +1,9 @@
 .Logo {
-  max-width: 250px;
+  max-width: 168px;
 }
 @media (max-width: 800px) {
   .Logo {
-    max-width: 150px;
+    max-width: 105px;
   }
 }
 
@@ -13,6 +13,7 @@
   z-index: 100;
 
   display: flex;
+  justify-content: space-between;
   align-items: center;
 
   position: fixed;
@@ -72,8 +73,4 @@ body {
     border: 0;
     text-align: center;
   }
-}
-
-.Menu a {
-  margin-left: auto;
 }
