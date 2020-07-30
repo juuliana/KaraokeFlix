@@ -29,3 +29,7 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+.slick-list {
+  overflow: visible !important;
+}
