@@ -33,7 +33,7 @@ const Container = styled.ul`
 `;
 
 export const SliderItem = styled.li`
-  margin-right: 16px;
+  margin-right: 10px;
   img {
     margin: 16px;
     width: 298px;
@@ -53,7 +53,7 @@ const Slider = ({ children }) => (
       variableWidth: true,
       adaptiveHeight: true,
       autoplay: true,
-      autoplaySpeed: 3000
+      autoplaySpeed: 2000
     }}
     >
       {children}
