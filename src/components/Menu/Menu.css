@@ -1,9 +1,9 @@
 .Logo {
-  max-width: 168px;
+  max-width: 250px;
 }
 @media (max-width: 800px) {
   .Logo {
-    max-width: 105px;
+    max-width: 150px;
   }
 }
 
@@ -13,7 +13,6 @@
   z-index: 100;
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
 
   position: fixed;
@@ -62,6 +61,7 @@ body {
 }
 
 @media (max-width: 800px) {
+
   a.ButtonLink {
     position: fixed;
     left: 0;
@@ -72,4 +72,8 @@ body {
     border: 0;
     text-align: center;
   }
+}
+
+.Menu a {
+  margin-left: auto;
 }
