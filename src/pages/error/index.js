@@ -3,7 +3,6 @@ import PageDefault from '../../components/PageDefault';
 
 export default function Pagina404(){
     return(
-       
        <PageDefault>
             <h2 align="center">Não encontramos o que está procurando :( - enquanto isso o que acha de entrar na Aventura com a Hipsta?</h2>
         
@@ -16,7 +15,5 @@ export default function Pagina404(){
             border="0"
         ></iframe>
        </PageDefault>
-        
-
     );
 }
