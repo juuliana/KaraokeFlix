@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Logo from '../../assets/img/singflix.png';
+import Logo from '../../assets/img/karoakêflix.png';
 import './Menu.css';
 
 import Button from '../Button';
@@ -14,7 +14,7 @@ export default function Menu(){
             </Link>
 
             <Button as={Link} className="ButtonLink" to="/cadastro/video">
-                Novo vídeo
+                Adicionar
             </Button>
         </nav>
     );
