@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 
@@ -33,13 +34,15 @@ function Carousel({
           }
 
           return (
-            <SliderItem key={video.titulo}>
-              <VideoCard
-                videoTitle={video.titulo}
-                videoURL={video.url}
-                categoryColor={categoryColor}
-              />
-            </SliderItem>
+              <Link to='/Karoake'>
+                <SliderItem key={video.titulo}>
+                  <VideoCard
+                    videoTitle={video.titulo}
+                    videoURL={video.url}
+                    categoryColor={categoryColor}
+                  />
+                </SliderItem>
+              </Link>
           );
         })}
       </Slider>
