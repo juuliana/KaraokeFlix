@@ -1,0 +1,41 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "name": "Internacional",
+            "description": "Músicas Intercionais!",
+            "cor": "#c81912"
+        },
+        {
+            "id": 2,
+            "name": "Sertanejo Universitário",
+            "description": "Músicas de Sertanejo Universitário!",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 3,
+            "name": "Sertanejo Raiz",
+            "description": "Músicas de Sertanejo Raiz!",
+            "cor": "#ffa41b"
+        },
+        {
+            "id": 4,
+            "name": "Pagode e Samba",
+            "description": "Músicas de Pagode e Samba!",
+            "cor": "#00a8cc"
+        },
+        {
+            "id": 5,
+            "name": "Pop",
+            "description": "Músicas Pop!",
+            "cor": "#000839"
+        },
+        {
+            "id": 6,
+            "name": "Religiosa",
+            "description": "Músicas Religiosas!",
+            "cor": "#004445"
+        }
+
+    ]
+}
