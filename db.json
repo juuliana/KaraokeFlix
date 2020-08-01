@@ -53,6 +53,12 @@
         "text": "Músicas Religiosas!",
         "url": "https://www.youtube.com/results?search_query=catolica+karoake"
       }
+    },
+    {
+      "titulo": "testando",
+      "cor": "#892f2f",
+      "descricao": "testando",
+      "id": 7
     }
   ],
   "videos": [
@@ -295,6 +301,12 @@
       "url": "https://youtu.be/Nh5kcqMB2Uk",
       "categoriaId": 2,
       "id": 40
+    },
+    {
+      "titulo": "Vira Homem - Marília Mendonça",
+      "url": "https://youtu.be/PWVONH-QcRE",
+      "categoriaId": 2,
+      "id": 41
     }
   ]
 }
