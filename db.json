@@ -53,12 +53,6 @@
         "text": "Músicas Religiosas!",
         "url": "https://www.youtube.com/results?search_query=catolica+karoake"
       }
-    },
-    {
-      "titulo": "testando",
-      "cor": "#892f2f",
-      "descricao": "testando",
-      "id": 7
     }
   ],
   "videos": [
@@ -307,6 +301,12 @@
       "url": "https://youtu.be/PWVONH-QcRE",
       "categoriaId": 2,
       "id": 41
+    },
+    {
+      "titulo": "3 Batidas - Guilherme e Benuto",
+      "url": "https://youtu.be/g9mFmxWmvf4",
+      "categoriaId": 2,
+      "id": 42
     }
   ]
 }
