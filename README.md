@@ -1,4 +1,4 @@
-<p align='center'><img width='200' src="./src/assets/img/karoakêflix.png"/></p>
+<p align='center'><img width='200' src="./src/assets/img/karaokêflix.png"/></p>
 
 <h1 align='center'>KaraokêFlix - Imersão React</h1>
 
