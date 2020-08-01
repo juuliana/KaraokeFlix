@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Logo from '../../assets/img/karoakêflix.png';
+import Logo from '../../assets/img/karaokêflix.png';
 import './Menu.css';
 
 import Button from '../Button';
