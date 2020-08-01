@@ -26,10 +26,12 @@
   background: var(--black);
   border-bottom: 2px solid var(--primary);
 }
+
 body {
   --bodyPaddingTop: 94px;
   padding-top: var(--bodyPaddingTop);
 }
+
 @media (max-width: 800px) {
   .Menu {
     height: 40px;
@@ -73,4 +75,10 @@ body {
     border: 0;
     text-align: center;
   }
+}
+
+@media (min-width: 1200px) {
+  .slick-list {
+    overflow: visible !important;
+  } 
 }
