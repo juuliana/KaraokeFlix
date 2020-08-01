@@ -83,24 +83,25 @@ function CadastroCategoria() {
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
-        infosDoEvento.preventDefault();
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
+        infosDoEvento.preventDefault()
 
-        categoriasRepository.create({
-           titulo: values.titulo,
-           descricao: values.descricao,
-           cor: values.cor,
-         })
-           .then(() => {
-             console.log('Cadastrou com sucesso!');
-             history.push('/');
-           });
-        
-        clearForm();
+        categoriasRepository
+          .create({
+            titulo: values.titulo,
+            cor: values.cor,
+            descricao: values.descricao,
+          })
+          .then(() => {
+            console.log('Cadastrou com sucesso!')
+          })
+
+        setCategorias([...categorias, values])
+
+        // infosDoEvento.preventDefault()
+        // setCategorias([...categorias, values])
+        // setValues(valoresIniciais)
       }}
+      
       >
 
         <FormField
