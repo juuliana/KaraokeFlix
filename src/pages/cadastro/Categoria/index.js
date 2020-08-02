@@ -131,9 +131,17 @@ function CadastroCategoria() {
       </form>
 
       {categorias.length === 0 && (
-        <div>
+        <div class="loading">
           {/* Cargando... */}
           Loading...
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
         </div>
       )}
         
