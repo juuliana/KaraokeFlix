@@ -30,6 +30,6 @@ export const ButtonWrapper = styled.div`
 
 export const TableC = styled.tr`
     :hover{
-        background-color: ${(props) => props.fieldColor || 'black'};
+        background-color: ${(props) => props.fieldColor || 'blue'};
     } 
 `;

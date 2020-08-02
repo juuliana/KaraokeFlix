@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
@@ -11,13 +10,14 @@ import {TableC} from '../styles';
 
 function CadastroCategoria() {
   const history = useHistory();
-
+  
   const table = {
-    borderCollapse: 'collapse',
-    width: '70%',
+    width: '100%',
     marginTop: '20px',
     marginLeft: 'auto',
     marginRight: 'auto',
+    paddingBottom: '10px',
+    border: '1px solid white'
   };
 
   const tableth = {
@@ -31,11 +31,11 @@ function CadastroCategoria() {
 
   const valoresIniciais = {
     nome: '',
-    descricao: '',
+    text: '',
     cor: '',
   };
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  const { handleChange, values } = useForm(valoresIniciais);
 
   const [categorias, setCategorias] = useState([]);
 
@@ -63,7 +63,7 @@ function CadastroCategoria() {
       {categorias.map((categoria) => (
         <tbody key={`${categoria.titulo}`}>
           <TableC fieldColor={categoria.cor}>
-            <td style={{ border: `2px solid white`, padding: '8px', textAlign: 'center' }}>
+            <td style={{ padding: '5px', textAlign: 'center' }}>
               {categoria.titulo}
             </td>
           </TableC>
@@ -89,17 +89,14 @@ function CadastroCategoria() {
           .create({
             titulo: values.titulo,
             cor: values.cor,
-            descricao: values.descricao,
+            text: values.text,
           })
           .then(() => {
-            console.log('Cadastrou com sucesso!')
+            console.log('Cadastrou com sucesso!');
+            history.push('/');
           })
 
         setCategorias([...categorias, values])
-
-        // infosDoEvento.preventDefault()
-        // setCategorias([...categorias, values])
-        // setValues(valoresIniciais)
       }}
       
       >
@@ -115,8 +112,8 @@ function CadastroCategoria() {
         <FormField
           label="Descrição"
           type="textarea"
-          name="descricao"
-          value={values.descricao}
+          name="text"
+          value={values.text}
           onChange={handleChange}
         />
 
@@ -139,7 +136,7 @@ function CadastroCategoria() {
           Loading...
         </div>
       )}
-
+        
       {listC}
 
     </PageDefault>

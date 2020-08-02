@@ -20,12 +20,12 @@ function CadastroVideo() {
   });
 
   useEffect(() => {
-    categoriasRepository
-      .getAll()
-      .then((categoriasFromServer) => {
-        setCategorias(categoriasFromServer);
-      });
-  }, []);
+     categoriasRepository
+       .getAll()
+       .then((categoriasFromServer) => {
+         setCategorias(categoriasFromServer);
+       });
+   }, []);
 
   return (
     <PageDefault>
