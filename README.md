@@ -2,7 +2,7 @@
 
 <h1 align='center'>KaraokêFlix - Imersão React</h1>
 
-<p align='center'><img width='200' src="./src/assets/img/telaP.png"/></p>
+![KaraokeFlix](https://github.com/juuliana/KaraokeFlix/blob/master/src/assets/img/telaP.png)
 
 <h3 align="center">Descrição:</h3>
 <p align="center">
