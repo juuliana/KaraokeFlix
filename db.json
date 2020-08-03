@@ -53,6 +53,12 @@
         "text": "Músicas Religiosas!",
         "url": "https://www.youtube.com/results?search_query=catolica+karoake"
       }
+    },
+    {
+      "titulo": "Rock",
+      "cor": "#d11f1f",
+      "text": "Músicas de Rock!",
+      "id": 7
     }
   ],
   "videos": [
