@@ -59,6 +59,12 @@
       "cor": "#d11f1f",
       "text": "Músicas de Rock!",
       "id": 7
+    },
+    {
+      "titulo": "K-pop",
+      "cor": "#f92f9b",
+      "text": "Músicas de K-pop!",
+      "id": 8
     }
   ],
   "videos": [
@@ -313,6 +319,24 @@
       "url": "https://youtu.be/g9mFmxWmvf4",
       "categoriaId": 2,
       "id": 42
+    },
+    {
+      "titulo": "Nirvana - Smells Like Teen Spirit",
+      "url": "https://youtu.be/tYZTJy_z3cE",
+      "categoriaId": 7,
+      "id": 43
+    },
+    {
+      "titulo": "Só os loucos sabem - Charlie Brown Jr.",
+      "url": "https://youtu.be/920HGv3vVjM",
+      "categoriaId": 7,
+      "id": 44
+    },
+    {
+      "titulo": "Legião Urbana - Tempo Perdido",
+      "url": "https://youtu.be/_7tzXcXnclQ",
+      "categoriaId": 7,
+      "id": 45
     }
   ]
 }
