@@ -33,21 +33,27 @@ function CadastroVideo() {
 
       <form onSubmit={(event) => {
         event.preventDefault();
-        // alert('Video Cadastrado com sucesso!!!1!');
 
         const categoriaEscolhida = categorias.find((categoria) => {
           return categoria.titulo === values.categoria;
         });
 
-        videosRepository.create({
-          titulo: values.titulo,
-          url: values.url,
-          categoriaId: categoriaEscolhida.id,
-        })
-          .then(() => {
-            console.log('Cadastrou com sucesso!');
-            history.push('/');
-          });
+        if (!categoriaEscolhida) {
+          alert('Escolha uma categoria existente ou cadastre outra diferente!');
+        } else {
+          videosRepository.create({
+            titulo: values.titulo,
+            url: values.url,
+            categoriaId: categoriaEscolhida.id,
+          })
+            .then(() => {
+              console.log('Cadastrou com sucesso!');
+              history.push('/');
+            })
+            .catch((error) => {
+              console.log(error);
+            });
+        }
       }}
       >
         <FormField
