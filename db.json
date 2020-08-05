@@ -65,6 +65,12 @@
       "cor": "#f92f9b",
       "text": "Músicas de K-pop!",
       "id": 8
+    },
+    {
+      "titulo": "Animes",
+      "cor": "#30a206",
+      "text": "Músicas de Animes",
+      "id": 9
     }
   ],
   "videos": [
@@ -337,6 +343,270 @@
       "url": "https://youtu.be/_7tzXcXnclQ",
       "categoriaId": 7,
       "id": 45
+    },
+    {
+      "titulo": "Nirvana - About A Girl",
+      "url": "https://youtu.be/rYwg3Z41sZI",
+      "categoriaId": 7,
+      "id": 46
+    },
+    {
+      "titulo": "Queen - Killer Queen",
+      "url": "https://youtu.be/keoUdoKu8Is",
+      "categoriaId": 7,
+      "id": 47
+    },
+    {
+      "titulo": "Blue bird - Ikimono Gakari (Karaoke Piano version)",
+      "url": "https://youtu.be/3bMVT2N9tHo",
+      "categoriaId": 9,
+      "id": 48
+    },
+    {
+      "titulo": "Dragon Ball GT - Sorriso Resplandecente Karaoke",
+      "url": "https://www.youtube.com/watch?v=8qx8EeIJxD0",
+      "categoriaId": 9,
+      "id": 49
+    },
+    {
+      "titulo": "Pegasus Fantasy - Karaoke",
+      "url": "https://www.youtube.com/watch?v=tDKBB_8MrjU",
+      "categoriaId": 9,
+      "id": 50
+    },
+    {
+      "titulo": "How You Like That - Blackpink",
+      "url": "https://www.youtube.com/watch?v=JDUTmoMzEQM",
+      "categoriaId": 8,
+      "id": 51
+    },
+    {
+      "titulo": "Boy With Luv - BTS",
+      "url": "https://www.youtube.com/watch?v=ZkNf0YMvdqQ",
+      "categoriaId": 8,
+      "id": 52
+    },
+    {
+      "titulo": "FANCY - Twice",
+      "url": "https://www.youtube.com/watch?v=Ui7nU4v3YcA",
+      "categoriaId": 8,
+      "id": 53
+    },
+    {
+      "titulo": "Kokobop - EXO",
+      "url": "https://www.youtube.com/watch?v=gceEz9IL4-I",
+      "categoriaId": 8,
+      "id": 54
+    },
+    {
+      "titulo": "Butterfly - LOONA",
+      "url": "https://www.youtube.com/watch?v=ExSh_0LhknI",
+      "categoriaId": 8,
+      "id": 55
+    },
+    {
+      "titulo": "Tempo - EXO",
+      "url": "https://www.youtube.com/watch?v=XPFvj3GM4hI",
+      "categoriaId": 8,
+      "id": 56
+    },
+    {
+      "titulo": "Love Shot - EXO",
+      "url": "https://www.youtube.com/watch?v=ty8irRfTi0o",
+      "categoriaId": 8,
+      "id": 57
+    },
+    {
+      "titulo": "Kill This Love - Blackpink",
+      "url": "https://www.youtube.com/watch?v=YoWJa7GWzk4",
+      "categoriaId": 8,
+      "id": 58
+    },
+    {
+      "titulo": "Psycho - Red Velvet",
+      "url": "https://www.youtube.com/watch?v=LlFoJkFjYnQ",
+      "categoriaId": 8,
+      "id": 59
+    },
+    {
+      "titulo": "Birthday - SOMI",
+      "url": "https://www.youtube.com/watch?v=suC6Nn1Mqjg",
+      "categoriaId": 8,
+      "id": 60
+    },
+    {
+      "titulo": "Snapping - Chung Ha",
+      "url": "https://www.youtube.com/watch?v=KTwRTnVsAlw",
+      "categoriaId": 8,
+      "id": 61
+    },
+    {
+      "titulo": "Violeta - IZ*ONE",
+      "url": "https://www.youtube.com/watch?v=UyFBXBzrCN8",
+      "categoriaId": 8,
+      "id": 62
+    },
+    {
+      "titulo": "Feel Special - Twice",
+      "url": "https://www.youtube.com/watch?v=TaP22u6EtVI",
+      "categoriaId": 8,
+      "id": 63
+    },
+    {
+      "titulo": "ICY - ITZY",
+      "url": "https://www.youtube.com/watch?v=ERVFR72urzY",
+      "categoriaId": 8,
+      "id": 64
+    },
+    {
+      "titulo": "Zimzalabim - Red Velvet",
+      "url": "https://www.youtube.com/watch?v=Y5NMk6COq9Q",
+      "categoriaId": 8,
+      "id": 65
+    },
+    {
+      "titulo": "Umpah Umpah - Red Velvet",
+      "url": "https://www.youtube.com/watch?v=QpMFS6FFk1E",
+      "categoriaId": 8,
+      "id": 66
+    },
+    {
+      "titulo": "BOOM - NCT Dream",
+      "url": "https://www.youtube.com/watch?v=sRetXFga0g8",
+      "categoriaId": 8,
+      "id": 67
+    },
+    {
+      "titulo": "ON - BTS",
+      "url": "https://www.youtube.com/watch?v=UqTSFZztTq4",
+      "categoriaId": 8,
+      "id": 68
+    },
+    {
+      "titulo": "Dun Dun - Everglow",
+      "url": "https://www.youtube.com/watch?v=SFqGhLLwh44",
+      "categoriaId": 8,
+      "id": 69
+    },
+    {
+      "titulo": "MIC Drop - BTS",
+      "url": "https://www.youtube.com/watch?v=5JCJjZYXe2E",
+      "categoriaId": 8,
+      "id": 70
+    },
+    {
+      "titulo": "IDOL - BTS",
+      "url": "https://www.youtube.com/watch?v=_ILHhp-y10E",
+      "categoriaId": 8,
+      "id": 71
+    },
+    {
+      "titulo": "Whistle - Blackpink",
+      "url": "https://www.youtube.com/watch?v=ynyAVKbtyqE",
+      "categoriaId": 8,
+      "id": 72
+    },
+    {
+      "titulo": "As If It's Your Last - Blackpink",
+      "url": "https://www.youtube.com/watch?v=N3ALaDtFmdI",
+      "categoriaId": 8,
+      "id": 73
+    },
+    {
+      "titulo": "BOOMBAYAH - Blackpink",
+      "url": "https://www.youtube.com/watch?v=LJfKq94ilUY",
+      "categoriaId": 8,
+      "id": 74
+    },
+    {
+      "titulo": "Stay - Blackpink",
+      "url": "https://www.youtube.com/watch?v=dndiZ6sau3E",
+      "categoriaId": 8,
+      "id": 75
+    },
+    {
+      "titulo": "DDU-DU DDU-DU - Blackpink",
+      "url": "https://www.youtube.com/watch?v=bzcgFUqtou4",
+      "categoriaId": 8,
+      "id": 76
+    },
+    {
+      "titulo": "Wannabe - ITZY",
+      "url": "https://www.youtube.com/watch?v=QwdGuAIOnFI",
+      "categoriaId": 8,
+      "id": 77
+    },
+    {
+      "titulo": "Oh My God - (G)I-DLE",
+      "url": "https://www.youtube.com/watch?v=FjTeyDGRgG0",
+      "categoriaId": 8,
+      "id": 78
+    },
+    {
+      "titulo": "Monster - Red Velvet - IRENE & SEULGI",
+      "url": "https://www.youtube.com/watch?v=gIXZo1p-9dE",
+      "categoriaId": 8,
+      "id": 79
+    },
+    {
+      "titulo": "Monster - EXO",
+      "url": "https://www.youtube.com/watch?v=Hb01DZFWJhA",
+      "categoriaId": 8,
+      "id": 80
+    },
+    {
+      "titulo": "Cherry Bomb - NCT 127",
+      "url": "https://www.youtube.com/watch?v=OUPFahv4q3U",
+      "categoriaId": 8,
+      "id": 81
+    },
+    {
+      "titulo": "BOSS - NCT U",
+      "url": "https://www.youtube.com/watch?v=XCJIYzdWebA",
+      "categoriaId": 8,
+      "id": 82
+    },
+    {
+      "titulo": "Blood Sweat & Tears - BTS",
+      "url": "https://www.youtube.com/watch?v=nMjOaLRdcTM",
+      "categoriaId": 8,
+      "id": 83
+    },
+    {
+      "titulo": "Spring Day - BTS",
+      "url": "https://www.youtube.com/watch?v=qLhD1DdH4hw",
+      "categoriaId": 8,
+      "id": 84
+    },
+    {
+      "titulo": "What You Waiting For - SOMI",
+      "url": "https://www.youtube.com/watch?v=kG3bH52SDDE",
+      "categoriaId": 8,
+      "id": 85
+    },
+    {
+      "titulo": "More & More - Twice",
+      "url": "https://www.youtube.com/watch?v=YigXssKfvWo",
+      "categoriaId": 8,
+      "id": 86
+    },
+    {
+      "titulo": "What Is Love? - Twice",
+      "url": "https://www.youtube.com/watch?v=noRv8HT9lsk",
+      "categoriaId": 8,
+      "id": 87
+    },
+    {
+      "titulo": "Dance The Night Away - Twice",
+      "url": "https://www.youtube.com/watch?v=HroU1jmpgII",
+      "categoriaId": 8,
+      "id": 88
+    },
+    {
+      "titulo": "Power Up - Red Velvet",
+      "url": "https://www.youtube.com/watch?v=oY7WDmRtKQg",
+      "categoriaId": 8,
+      "id": 89
     }
   ]
 }
