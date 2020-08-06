@@ -16,8 +16,14 @@ const Button = styled.button`
     display: inline-block;
     transition: opacity .3s;
     
-    &:hover,
-    &:focus {
+    &:hover{
+        color: black;
+        background: var(--primary);
+        box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+        transition-delay: 4s;
+    }
+
+    &:focus { 
         opacity: .5;
     }
 `;
