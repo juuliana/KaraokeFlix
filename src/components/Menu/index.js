@@ -1,21 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Logo from '../../assets/img/karaokêflix.png';
-import './Menu.css';
+import Logo from "../../assets/img/karaokêflix.png";
+import "./Menu.css";
 
-import Button from '../Button';
+export default function Menu() {
+  return (
+    <nav className="Menu">
+      <Link to="/">
+        <img className="Logo" src={Logo} alt="Juflix Logo" />
+      </Link>
 
-export default function Menu(){
-    return(
-        <nav className="Menu">
-            <Link to="/">
-                <img className="Logo" src={Logo} alt="Juflix Logo"/>
-            </Link>
-
-            <Button as={Link} className="ButtonLink" to="/cadastro/video">
-                Adicionar
-            </Button>
-        </nav>
-    );
+      {/* <Button as={Link} className="ButtonLink" to="/cadastro/video">
+        Adicionar
+      </Button> */}
+    </nav>
+  );
 }
